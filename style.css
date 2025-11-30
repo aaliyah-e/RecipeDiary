@@ -49,11 +49,12 @@ body {
   gap: 10px;
 }
 
-.logo-circle {
-  width: 50px;
-  height: 50px;
-  background-color: #ff9b9b;
-  border-radius: 50%;
+.site-logo {
+  max-width: 50px;
+  width: 100%;
+  height: auto;
+  object-fit: cover; 
+  border-radius: 50%; 
 }
 
 .logo-area h1 {
@@ -103,6 +104,7 @@ body {
 /* landing page recipe section stuff */
 .recipe-grid {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
   margin: 40px 0;
@@ -117,7 +119,7 @@ body {
 .recipe-card {
   width: 150px;
   height: 150px;
-  background-color: #ffc7c7;
+  background-color: #ffffff00;
 }
 
 .recipe-card h4 {
@@ -574,7 +576,7 @@ margin: 1rem 0;
   }
 }
 
-/* RESPONSIVE STUFF FOR FORM */
+/* RESPONSIVE STUFF FOR LANDING PAGE */
 @media (max-width: 700px) {
 
   .mail-form {
@@ -589,6 +591,15 @@ margin: 1rem 0;
   .mail-form button {
     width: 100%;
     font-size: 16px;
+  }
+
+  .recipe-card {
+    width: 45%;
+    max-width: 200px; 
+  }
+  
+  .recipe-card img {
+    height: 120px;
   }
 }
 
@@ -640,6 +651,27 @@ margin: 1rem 0;
   .cat-img {
     height: 150px;
   }
+}
+
+/* RESPONSIVE STUFF FOR DIARY PAGE */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 700px;  
+  margin: 0 auto;
+  padding-bottom: 42.85%; 
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 
