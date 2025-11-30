@@ -549,6 +549,49 @@ margin: 1rem 0;
 }
 
 
+/* RESPONSIVE STUFF FOR NAVBAR (IN GENERAL) */
+@media (max-width: 700px) {
+
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+    gap: 10px;
+  }
+
+  .logo-area h1 {
+    font-size: 32px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 0;
+  }
+
+  .navbar a {
+    font-size: 18px;
+  }
+}
+
+/* RESPONSIVE STUFF FOR FORM */
+@media (max-width: 700px) {
+
+  .mail-form {
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: 15px auto 0;
+    gap: 12px;
+  }
+
+  .mail-form input,
+  .mail-form button {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
 /* RESPONSIVE STUFF FOR RECIPE PAGES */
 
 @media (max-width: 700px) {
