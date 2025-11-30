@@ -28,7 +28,7 @@ a:active {
 
 body {
   font-family: 'Gowun Dodum', sans-serif;
-  background-color: #fffcf3;
+  background-image: linear-gradient(to right, rgb(252, 255, 246), rgb(248, 224, 224));
   color: #2e2929;
 }
 
@@ -133,7 +133,7 @@ body {
 
 /* landing page info section */
 .info-section {
-  background-color: #d3eebb;
+  background-color: #ffd2d2;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -193,8 +193,8 @@ body {
 .recipe-directory-card img {
   width: 220px;
   height: 260px;
-  background: #d3eebb;
-  border: 2px solid #969998;
+  background: #ffb6c6;
+  border: 2px solid #ff8c8c;
   object-fit: cover;
 }
 
@@ -249,7 +249,7 @@ list-style-type: none;
 
 /* THINGS TO SHARE SECTION (ON DIARY PAGE!!!) */
 .share-section {
-background-color: #d3eebb;
+background-color: #ffdbdb;
 padding: 60px 20px;
 text-align: center;
 margin-top: 60px;
@@ -378,7 +378,7 @@ border-radius: 4px;
   width: 160px;
   height: 160px;
   background-color: #ffc2ca;
-  border: 2px solid #89c09e;
+  border: 2px solid #f89b9b;
   overflow: hidden;
 }
 
@@ -397,7 +397,7 @@ border-radius: 4px;
 /* line between “meal” and “category” groups */
 .category-divider {
   border: none;
-  border-top: 1px solid #89c09e;
+  border-top: 1px solid #ffacb7;
   width: 80%;
   margin: 40px auto;
 }
@@ -439,7 +439,7 @@ border-radius: 4px;
 
 /* info box */
 .recipe-info-box {
-  background-color: #d3eebb;
+  background-color: #ffecad;
   padding: 30px;
   margin: 40px 0;
   border-radius: 4px;
@@ -457,7 +457,7 @@ border-radius: 4px;
   width: 48%;
   padding: 15px;
   text-align: center;
-  border: 1px solid #89c09e;
+  border: 1px solid #ff8c8c;
 }
 
 .info-item p {
@@ -474,7 +474,7 @@ border-radius: 4px;
   text-align: center;
   background-color: #ffffff;
   padding: 20px;
-  border: 1px solid #89c09e;
+  border: 1px solid #ff8c8c;
 }
 
 .rating-label {
